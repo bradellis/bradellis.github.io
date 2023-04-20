@@ -16,8 +16,14 @@
   }
   
   .right-column {
-    flex: 1;
-    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
   }
   
   /* Vertically center the image */
@@ -39,6 +45,9 @@
   }
   
   .right-column p {
+    font-family: "minion-pro", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -48,16 +57,14 @@
     display: block;
     width: 80%;
     max-width: 200px;
-    color: #7C4DFF;
     text-align: center;
     padding: 0.5rem;
     font-size: 1.2rem;
     margin: 0 auto;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   
   .right-column a:hover {
-    color: #000;
     text-decoration: underline;
   }
   
