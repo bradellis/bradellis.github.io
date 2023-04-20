@@ -1,5 +1,8 @@
 /* Set the flex container properties */
 .container {
+    font-family: "minion-pro", serif;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,8 +30,9 @@
   
   /* Style the text in the right column */
   .right-column h1 {
-    font-family: Minion Pro;
-    font-weight: bold;
+    font-family: "minion-pro-condensed-display", serif;
+    font-weight: 700;
+    font-style: italic;
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
@@ -44,21 +48,17 @@
     display: block;
     width: 80%;
     max-width: 200px;
-    background-color: #7C4DFF;
-    color: #fff;
+    color: #7C4DFF;
     text-align: center;
     padding: 0.5rem;
-    border-radius: 0.25rem;
-    text-decoration: none;
     font-size: 1.2rem;
     margin: 0 auto;
     transition: all 0.3s ease-in-out;
   }
   
   .right-column a:hover {
-    background-color: #fff;
-    color: #7C4DFF;
-    border: 2px solid #7C4DFF;
+    color: #000;
+    text-decoration: underline;
   }
   
   footer {
