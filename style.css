@@ -39,8 +39,9 @@
     font-family: "minion-pro-condensed-display", serif;
     font-weight: 700;
     line-height: 0.8;
+    letter-spacing: 0.02em;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 6rem;
     text-align: left;
     margin-bottom: 1rem;
   }
@@ -58,16 +59,13 @@
     display: block;
     width: 80%;
     max-width: 200px;
-    text-align: center;
+    text-align: left;
     padding: 0.5rem;
     font-size: 1.2rem;
     margin: 0 auto;
     transition: all 0.1s ease-in-out;
   }
-  
-  .right-column a:hover {
-    text-decoration: underline;
-  }
+
   
   footer {
     text-align: center;
@@ -78,13 +76,6 @@
   h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
-    font-family: Minion Pro, serif;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    margin-top: 0;
-    margin-bottom: 1em;
     font-family: Minion Pro, serif;
   }
   
