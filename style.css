@@ -69,21 +69,10 @@
   
   footer {
     text-align: center;
+    font-family: "minion-pro", serif;
+    font-weight: 400;
     margin-top: auto;
     padding: 10px 0;
-  }
-  
-  h1 {
-    font-size: 3em;
-    margin-bottom: 0.5em;
-    font-family: Minion Pro, serif;
-  }
-  
-  .button {
-    display: inline-block;
-    color: #7C4DFF;
-    font-size: 1.2em;
-    text-decoration: none;
   }
   
   /* Add a breakpoint for smaller screens */
