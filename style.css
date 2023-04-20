@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .left-column,
+  .right-column {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-column img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+    .left-column,
+    .right-column {
+      flex: none;
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  }
+  footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px 0;
+  }
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    font-family: Minion Pro, serif;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-family: Minion Pro, serif;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #7C4DFF;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
