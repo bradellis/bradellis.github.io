@@ -17,7 +17,7 @@ body{
   }
 
   /* Vertically center the image */
-  .img {
+  .logo {
     display: block;
     margin: 0 auto;
     max-width: 150%;
@@ -29,11 +29,7 @@ body{
   
   /* Style the text in the right column */
   .h1 {
-    font-family: "minion-pro-condensed-display", serif;
-    font-weight: 700;
-    line-height: 0.8;
-    letter-spacing: 0.02em;
-    font-size: 8vw;
+    height: auto;
   }
   
   .p {
