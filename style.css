@@ -14,7 +14,8 @@ body{
     justify-content: center;
     align-items: top;
     text-align: center;
-    font-size: 1.8vw;
+    font-size: 1.8em;
+    max-width: 650pt;
   }
 
   /* Vertically center the image */
@@ -31,6 +32,7 @@ body{
   /* Style the text in the right column */
   .h1 {
     height: auto;
+    margin: 10vw;
   }
   
   .p {
