@@ -87,9 +87,34 @@
     .left-column, .right-column {
       max-width: 100%;
       justify-content: center;
+      width: 90%
     }
     .left-column img {
         object-position: -24vw -50vw;
     }
+    .right-column h1 {
+        font-size: 8vw;
+        text-align: center;
+      }
+      
+      .right-column p {
+        font-size: 18pt;
+        text-align: center;
+      }
+      
+      .right-column a {
+        color: #7C4DFF;
+        cursor: pointer;
+        font-size: 18pt;
+      }
+    
+      
+      footer {
+        text-align: center;
+        font-family: "minion-pro", serif;
+        font-weight: 400;
+        margin-top: auto;
+        padding: 10px 0;
+      }
   }
   
