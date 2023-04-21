@@ -10,31 +10,14 @@ body{
     font-weight: 400;
     font-style: normal;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: top;
+    text-align: center;
   }
-  
-  /* Set the width of the columns */
-  .left-column {
-    flex: 1;
-    max-width: 50%;
-    position: relative;
-  }
-  
-  .right-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    width: 50%;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 1rem;
-  }
-  
+
   /* Vertically center the image */
-  .left-column img {
+  .img {
     display: block;
     margin: 0 auto;
     max-width: 150%;
@@ -45,32 +28,27 @@ body{
   }
   
   /* Style the text in the right column */
-  .right-column h1 {
+  .h1 {
     font-family: "minion-pro-condensed-display", serif;
     font-weight: 700;
     line-height: 0.8;
     letter-spacing: 0.02em;
-    font-style: italic;
     font-size: 8vw;
-    text-align: left;
-    margin-bottom: 1rem;
   }
   
-  .right-column p {
+  .p {
     font-family: "minion-pro", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.8vw;
-    text-align: left;
     max-width: 37vw;
   }
   
-  .right-column a {
+  .a {
     font-family: "minion-pro-condensed-display", serif;
     font-weight: 700;
     color: #7C4DFF;
     text-decoration: none;
-    cursor: pointer;
     font-size: 1.2vw;
   }
 
@@ -81,54 +59,5 @@ body{
     font-weight: 400;
     margin-top: auto;
     padding: 10px 0;
+    font-size: 1.2vw;
   }
-  
-  /* Add a breakpoint for smaller screens */
-  @media only screen and (max-width: 850px),
-  only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 3),
-  only screen and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2) {
-
-    .container {
-      flex-direction: column;
-    }
-    
-    .left-column, .right-column {
-      max-width: 100%;
-      justify-content: center;
-      width: 90%
-    }
-    .right-column {
-        padding-top: 20vw;
-    }
-    .left-column img {
-        object-position: -10vw -47vw;
-    }
-    .right-column h1 {
-        font-size: 13vw;
-        text-align: center;
-      }
-      
-      .right-column p {
-        font-size: 1.6em;
-        text-align: center;
-        max-width: 100%;
-      }
-      
-      .right-column a {
-        color: #7C4DFF;
-        cursor: pointer;
-        font-size: 18pt;
-      }
-    
-      
-      footer {
-        text-align: center;
-        font-family: "minion-pro", serif;
-        font-weight: 400;
-        margin-top: auto;
-        padding: 10px 0;
-      }
-  }
-  
