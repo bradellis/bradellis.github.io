@@ -3,8 +3,6 @@ body{
   color: white;
 }
 
-
-/* Set the flex container properties */
 .container {
     font-family: "minion-pro", serif;
     font-weight: 400;
@@ -18,35 +16,31 @@ body{
     max-width: 650pt;
     margin: 0 auto;
   }
-.body {
-  max-width: 550pts;
+
+.copy {
+  max-width: 500pts;
 }
 
-  /* Vertically center the image */
-  .logo {
-    z-index: -1;
-    position: absolute;
-    top: 241pt;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  /* Style the text in the right column */
-  .h1 {
-    height: auto;
-    margin: 0em 2em 0em 2em;
-    padding-top: 9em;
-  }
-  
-  .link {
-    /* font-family: "minion-pro-condensed-display", serif;
-    font-weight: 700; */
-    color: #7C4DFF;
-    text-decoration: none;
-    /* font-size: 1.2em; */
-  }
+.logo {
+  z-index: -1;
+  position: absolute;
+  top: 271pt;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .footer {
-    font-size: 1em;
-    text-align: center;
-  }
+.h1 {
+  height: auto;
+  margin: 0em 2em 0em 2em;
+  padding-top: 14em;
+}
+
+.link {
+  color: #7C4DFF;
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 1em;
+  text-align: center;
+}
