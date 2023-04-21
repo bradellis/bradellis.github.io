@@ -14,37 +14,39 @@ body{
     justify-content: center;
     align-items: top;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.4em;
     max-width: 650pt;
     margin: 0 auto;
   }
+.body {
+  max-width: 550pts;
+}
 
   /* Vertically center the image */
   .logo {
-    display: block;
-    margin: 0 auto;
-    max-width: 150%;
-    height: auto;
     z-index: -1;
     position: absolute;
-    object-position: -10vw -10vw;
+    top: 241pt;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   /* Style the text in the right column */
   .h1 {
     height: auto;
     margin: 0em 2em 0em 2em;
+    padding-top: 9em;
   }
   
   .link {
-    font-family: "minion-pro-condensed-display", serif;
-    font-weight: 700;
+    /* font-family: "minion-pro-condensed-display", serif;
+    font-weight: 700; */
     color: #7C4DFF;
     text-decoration: none;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
   }
 
   .footer {
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
   }
