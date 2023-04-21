@@ -88,5 +88,8 @@
       max-width: 100%;
       justify-content: center;
     }
+    .left-column img {
+        object-position: -24vw -50vw;
+    }
   }
   
